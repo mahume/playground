@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import styled, { createGlobalStyle } from "styled-components";
-import Navbar from './Navbar';
+import Navbar from './Navbar/index';
 
 const GlobalStyle = createGlobalStyle`
   html {
