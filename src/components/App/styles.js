@@ -13,10 +13,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 `
 export const StyledMain = styled.main`
-  background-color: ${palette.primary};
+  background-color: ${palette.secondary};
+  height: 100vh;
 
   display: grid;
-  grid-template-columns: 1fr 50% 1fr;
+  grid-template-columns: 1fr 70% 1fr;
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "...... ...... ......"
                        "...... center ......"
