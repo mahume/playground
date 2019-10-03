@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Navbar from '../Navbar/index';
 import { GlobalStyle, StyledMain } from './styles';
-
 
 class App extends Component {
   render() {
